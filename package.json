@@ -1,0 +1,34 @@
+{
+	"name": "turborepo-cache-server",
+	"version": "0.1.0",
+	"bin": {
+		"turborepo-cache-server": "bin/turborepo-cache-server.js"
+	},
+	"scripts": {
+		"build": "tsc",
+		"cdk": "cdk",
+		"deploy": "cdk deploy --require-approval never",
+		"synth": "cdk synth",
+		"watch": "tsc -w"
+	},
+	"devDependencies": {
+		"@types/aws-lambda": "8.10.140",
+		"@types/jsonwebtoken": "9.0.6",
+		"@types/node": "20.14.9",
+		"aws-cdk": "2.147.3",
+		"ts-node": "10.9.2",
+		"typescript": "5.5.3"
+	},
+	"dependencies": {
+		"@aws-sdk/s3-request-presigner": "3.608.0",
+		"@aws-sdk/util-format-url": "3.598.0",
+		"@smithy/hash-node": "3.0.3",
+		"@smithy/protocol-http": "4.0.3",
+		"@smithy/url-parser": "3.0.3",
+		"aws-cdk-lib": "2.147.3",
+		"aws-lambda": "1.0.7",
+		"constructs": "10.3.0",
+		"jsonwebtoken": "9.0.2",
+		"source-map-support": "0.5.21"
+	}
+}

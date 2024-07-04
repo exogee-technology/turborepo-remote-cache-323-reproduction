@@ -1,0 +1,8 @@
+@types
+**/node_modules/**
+**/build/**
+**/dist/**
+.eslintrc.js
+*.generated.ts
+pnpm-lock.yaml
+pnpm-workspace.yaml
